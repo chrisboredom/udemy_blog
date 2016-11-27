@@ -15,6 +15,8 @@ gem 'autoprefixer-rails', '~> 6.5', '>= 6.5.3'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
+  gem 'guard-rspec', '~> 4.7', '>= 4.7.3', require: false
+  gem 'spring-commands-rspec', '~> 1.0', '>= 1.0.4'
   gem 'byebug', platform: :mri
 end
 
