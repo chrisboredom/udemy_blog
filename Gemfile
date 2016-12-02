@@ -12,6 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'autoprefixer-rails', '~> 6.5', '>= 6.5.3'
+gem 'devise', '~> 4.2'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
